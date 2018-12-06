@@ -35,7 +35,7 @@ body {
   text-align: center;
 }
 
-.jumbotron {
+header {
   padding: 10px 10px 15px 10px;
   background: url('http://i68.tinypic.com/24dgfpe.jpg');
   background-size: cover;
