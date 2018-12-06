@@ -1,0 +1,81 @@
+article {
+  max-width: 800px;
+  text-align: justify;
+  padding: 20px;
+  margin: 0 auto;
+}
+
+.blogpost {
+  border-style: solid;
+  border-radius: 5px;
+  max-width: 810px;
+  padding: 5px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 60px;
+  color: black;
+}
+h2 {
+  color: white;
+}
+a {
+  color: white;
+}
+ul {
+  padding: 10px 10px 0px 10px;
+}
+li {
+  display: inline;
+  padding: 0px 10px 0px 10px;
+  color: white;
+}
+body {
+  text-align: center;
+}
+
+header {
+  padding: 10px 10px 15px 10px;
+  background: url('http://i68.tinypic.com/24dgfpe.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.pictures {
+  padding: 5px;
+}
+/* Add some padding and a grey background color to containers */
+.container {
+    max-width: 500px;
+    padding: 10px;
+    background-color: #9494b8;
+}
+
+/* Style the input elements and the submit button */
+input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 6px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+/* Add margins to the checkbox */
+input[type=checkbox] {
+    margin-top: 16px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+    background-color: #666699;
+    color: white;
+    border: none;
+    max-width: 100px;
+}
+
+input[type=submit]:hover {
+    opacity: 0.8;
+}
